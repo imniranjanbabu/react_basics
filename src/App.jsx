@@ -1,18 +1,7 @@
 import React from 'react';
 import './App.css';
 
-
-const Color = ({ title }) => (
-  <div
-    className="color"
-    style={{
-      background: title,
-    }}
-  >
-    <p>{title}</p>
-  </div>
-);
-
+import Color from './Color';
 
 const App = () => (
   <div className="app">
