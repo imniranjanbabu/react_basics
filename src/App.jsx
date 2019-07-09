@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 
-const Red = ({ title, bg }) => (
+const Red = ({ title }) => (
   <div
     className="red"
     style={{
-      background: bg,
+      background: title,
     }}
   >
     <p>{title}</p>
@@ -13,11 +13,11 @@ const Red = ({ title, bg }) => (
 );
 
 
-const Blue = ({ title, bg }) => (
+const Blue = ({ title }) => (
   <div
     className="blue"
     style={{
-      background: bg,
+      background: title,
     }}
   >
     <p>{title}</p>
@@ -25,11 +25,11 @@ const Blue = ({ title, bg }) => (
 );
 
 
-const Green = ({ title, bg }) => (
+const Green = ({ title }) => (
   <div
     className="green"
     style={{
-      background: bg,
+      background: title,
     }}
   >
     <p>{title}</p>
@@ -40,10 +40,10 @@ const Green = ({ title, bg }) => (
 const App = () => (
   <div className="app">
     <p>hi hello</p>
-    <Red title="RED" bg="red" />
-    <Blue title="BLUE" bg="blue" />
-    <Green title="GREEN" bg="green" />
-    <Red title="VIOLET" bg="violet" />
+    <Red title="RED" />
+    <Blue title="BLUE" />
+    <Green title="GREEN" />
+    <Red title="VIOLET" />
   </div>
 );
 
