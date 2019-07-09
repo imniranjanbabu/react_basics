@@ -1,20 +1,36 @@
 import React from 'react';
+import './App.css';
 
-// function App() {
-//   return (
-//     <p>Hi Hello</p>
-//   );
-// }
+const Red = () => (
+  <div className="red">
+    <p>RED</p>
+  </div>
+);
 
-// const App = () => {
-//   return(
-//     <p>Hi Hello</p>
-//   );
-// }
 
-// const App = () => (<p>Hi Hello</p>);
+const Blue = () => (
+  <div className="blue">
+    <p>BLUE</p>
+  </div>
+);
 
-const App = () => <p>Hi Hello</p>;
+
+const Green = () => (
+  <div className="green">
+    <p>hi GREEN</p>
+  </div>
+);
+
+
+const App = () => (
+  <div className="app">
+    <p>hi hello</p>
+    <Red />
+    <Blue />
+    <Green />
+    <Blue />
+  </div>
+);
 
 
 export default App;
